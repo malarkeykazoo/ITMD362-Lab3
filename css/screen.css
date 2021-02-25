@@ -207,6 +207,7 @@ label {
   margin: 0 auto; 
 }
 form  {
+  font-family: 'lato', sans-serif;
   text-align: center;
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(230,230,230) 0%, rgb(65, 65, 65) 100%);
@@ -218,7 +219,6 @@ form h1{
   color: rgb(39, 39, 39) ;
 }
 form p {
-  font-family: 'lato', sans-serif;
   padding: 2%;
 }
 form ol{
@@ -261,4 +261,10 @@ form li{
     padding: 1.016em; /* 26px / ~ 120% */
     text-rendering: optimizeLegibility;
   }
-  
+  form: {
+    font-family: 'Montserrat', sans-serif;
+  };
+  form h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
