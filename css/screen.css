@@ -249,7 +249,7 @@ form li{
   align-self: center;
 }
 /* ===== STATE STYLES ======= */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
  /*
   Major Sixth Modular Scale:
   https://www.modularscale.com/?36&px&1.667
