@@ -205,11 +205,12 @@ label {
 /* ===== LAYOUT STYLES ====== */
 #content  {
   margin: 0 auto; 
+  width: 85%;
+  overflow: hidden;
 }
 form  {
   font-family: 'lato', sans-serif;
   text-align: center;
-  
 }
 form h1{
   font-family: 'Montserrat', sans-serif;
@@ -221,7 +222,7 @@ form h1{
   line-height: 1.375em;
 }
 form p {
-  padding: 2% 0;
+  padding: 2% 1%;
   background: #a0a0a0;
   font-size: 1.236em;
   line-height: 1.375em;
@@ -241,6 +242,12 @@ form li{
 }
 #input-email > input{
   width:50%;
+  background-color: #b1b1b1;
+  color: rgb(0, 0, 0);
+  border: 0;
+  border-radius: 25px;
+  padding: .5%;
+  text-align: center;
 }
 #input-age-verification {
   display: flex;
@@ -262,6 +269,13 @@ form li{
 }
 #input-submit {
   background: #696969
+}
+#input-submit > input {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 25px;
+  padding: 1%;
 }
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 992px) {
@@ -300,6 +314,11 @@ form li{
     order: 2;
     text-align: center;
     margin-left: 2%;
+    border: 0;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: #4b4747;
+    color: white;
   }
   #input-age-verification {
     display: flex;
@@ -318,7 +337,16 @@ form li{
   #input-age-verification > input{
     order: 2;
     margin-left: 2%;
+   
   }
-  #input-submit {
+  #input-submit  {
     background-color:transparent;
   }
+  #input-submit > input{
+    background-color: #000000;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 1%;
+  }
+}
