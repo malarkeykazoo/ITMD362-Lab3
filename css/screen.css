@@ -209,27 +209,32 @@ label {
 form  {
   font-family: 'lato', sans-serif;
   text-align: center;
-  background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(230,230,230) 0%, rgb(65, 65, 65) 100%);
+  
 }
 form h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   padding: 2.5%;
   color: rgb(39, 39, 39) ;
-  font-size: 1.236em;
+  font-size: 1.667em;
+  background: #a0a0a0;
+  line-height: 1.375em;
 }
 form p {
-  padding: 2%;
+  padding: 2% 0;
+  background: #a0a0a0;
+  font-size: 1.236em;
+  line-height: 1.375em;
 }
 form ol{
-  padding: 1%;
+  padding: 1% 0;
 }
 form li{
   padding: 2%;
 }
 #input-email {
   line-height: 1.2em;
+  background: #838383;
 }
 #input-email > label{
   padding-bottom: 1%;
@@ -243,6 +248,7 @@ form li{
   justify-content:center;
   align-content:center;
   line-height: 1.2em;
+  background: #838383;
 }
 #input-age-verification > label{
   order: 1;
@@ -254,6 +260,9 @@ form li{
   order: 2;
   align-self: center;
 }
+#input-submit {
+  background: #696969
+}
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 992px) {
 
@@ -261,11 +270,17 @@ form li{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2em;
     font-size: 1em;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(230,230,230) 0%, rgb(65, 65, 65) 100%);
   }
   form > h1{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 2.25em;
+    background-color: transparent;
+  }
+  form > p {
+    background-color: transparent;
   }
   #input-email{
   display: flex;
@@ -273,6 +288,7 @@ form li{
   justify-content:center;
   align-content:center;
   align-items: center;
+  background-color: transparent;
   }
 
   #input-email > label{
@@ -291,6 +307,7 @@ form li{
     justify-content:center;
     align-content:center;
     line-height: 1.2em;
+    background-color: transparent;
   }
   #input-age-verification > label{
     order: 1;
@@ -301,4 +318,7 @@ form li{
   #input-age-verification > input{
     order: 2;
     margin-left: 2%;
+  }
+  #input-submit {
+    background-color:transparent;
   }
