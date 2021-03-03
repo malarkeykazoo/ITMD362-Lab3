@@ -208,10 +208,12 @@ label {
   width: 85%;
   overflow: hidden;
 }
+
 form  {
   font-family: 'lato', sans-serif;
   text-align: center;
 }
+
 form h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -221,25 +223,31 @@ form h1{
   background: #a0a0a0;
   line-height: 1.375em;
 }
+
 form p {
   padding: 2% 1%;
   background: #a0a0a0;
   font-size: 1.236em;
   line-height: 1.375em;
 }
+
 form ol{
   padding: 1% 0;
 }
+
 form li{
   padding: 2%;
 }
+
 #input-email {
   line-height: 1.2em;
   background: #838383;
 }
+
 #input-email > label{
   padding-bottom: 1%;
 }
+
 #input-email > input{
   width:50%;
   background-color: #b1b1b1;
@@ -249,6 +257,7 @@ form li{
   padding: .5%;
   text-align: center;
 }
+
 #input-age-verification {
   display: flex;
   flex-direction: column;
@@ -257,19 +266,23 @@ form li{
   line-height: 1.2em;
   background: #838383;
 }
+
 #input-age-verification > label{
   order: 1;
   text-align: center;
   padding-bottom: 2%;
   font-size: 0.764em;
 }
+
 #input-age-verification > input{
   order: 2;
   align-self: center;
 }
+
 #input-submit {
   background: #696969
 }
+
 #input-submit > input {
   background-color: #000000;
   color: rgb(255, 255, 255);
@@ -277,9 +290,9 @@ form li{
   border-radius: 25px;
   padding: 1%;
 }
+
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 992px) {
-
   form {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2em;
@@ -287,15 +300,18 @@ form li{
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(230,230,230) 0%, rgb(65, 65, 65) 100%);
   }
+
   form > h1{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 2.25em;
     background-color: transparent;
   }
+
   form > p {
     background-color: transparent;
   }
+
   #input-email{
   display: flex;
   flex-direction: row;
@@ -310,6 +326,7 @@ form li{
     text-align: center;
     padding-bottom: 0%;
   }
+
   #input-email > input{
     order: 2;
     text-align: center;
@@ -320,6 +337,7 @@ form li{
     background-color: #4b4747;
     color: white;
   }
+
   #input-age-verification {
     display: flex;
     flex-direction: row;
@@ -328,20 +346,23 @@ form li{
     line-height: 1.2em;
     background-color: transparent;
   }
+
   #input-age-verification > label{
     order: 1;
     text-align: center;
     padding-bottom: 0%;
     font-size: 0.764em;
   }
+
   #input-age-verification > input{
     order: 2;
     margin-left: 2%;
-   
   }
+
   #input-submit  {
     background-color:transparent;
   }
+  
   #input-submit > input{
     background-color: #000000;
     color: white;
