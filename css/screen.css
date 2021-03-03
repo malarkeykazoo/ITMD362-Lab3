@@ -205,7 +205,8 @@ label {
 /* ===== LAYOUT STYLES ====== */
 #content  {
   margin: 0 auto; 
-  width: 85%;
+  width: 95vw;
+  height: 95vh;
   overflow: hidden;
 }
 
@@ -249,7 +250,7 @@ form li{
 }
 
 #input-email > input{
-  width:50%;
+  width:85%;
   background-color: #b1b1b1;
   color: rgb(0, 0, 0);
   border: 0;
@@ -297,6 +298,7 @@ form li{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2em;
     font-size: 1em;
+    height: 100%;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(230,230,230) 0%, rgb(65, 65, 65) 100%);
   }
@@ -336,6 +338,7 @@ form li{
     padding: 1%;
     background-color: #4b4747;
     color: white;
+    width: 50%;
   }
 
   #input-age-verification {
