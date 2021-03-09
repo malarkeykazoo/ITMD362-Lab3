@@ -292,6 +292,13 @@ form li{
 
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 992px) {
+  body  {
+    background-color: #414141;
+  }
+
+  main  {
+    width:60%;
+  }
   form {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2em;
@@ -325,6 +332,7 @@ form li{
     order: 1;
     text-align: center;
     padding-bottom: 0%;
+    font-weight: bold;
   }
 
   #input-email > input{
@@ -353,6 +361,7 @@ form li{
     text-align: center;
     padding-bottom: 0%;
     font-size: 0.764em;
+    font-weight: bold;
   }
 
   #input-age-verification > input{
