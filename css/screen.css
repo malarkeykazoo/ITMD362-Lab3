@@ -202,6 +202,8 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+/* Color Palette from Paletton: https://paletton.com/#uid=13X0u0k4aeY1frY2-kU6y7Rgy5w
+*/
 #content  {
   margin: 0 auto; 
   height: 90vh;
@@ -211,21 +213,22 @@ label {
 form  {
   font-family: 'lato', sans-serif;
   text-align: center;
+
 }
 
 form h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   padding: 2.5%;
-  color: rgb(39, 39, 39) ;
+  color: #11121E ;
   font-size: 1.667em;
-  background: #a0a0a0;
+  background: #878890;
   line-height: 1.375em;
 }
 
 form p {
   padding: 2% 1%;
-  background: #a0a0a0;
+  background: #878890;
   font-size: 1.236em;
   line-height: 1.375em;
 }
@@ -240,7 +243,7 @@ form li{
 
 #input-email {
   line-height: 1.2em;
-  background: #838383;
+  background: #666770;
 }
 
 #input-email > label{
@@ -249,8 +252,8 @@ form li{
 
 #input-email > input{
   width:85%;
-  background-color: #b1b1b1;
-  color: rgb(0, 0, 0);
+  background-color: #95969A;
+  color: #11121E;
   border: 0;
   border-radius: 25px;
   padding: .5%;
@@ -263,7 +266,7 @@ form li{
   justify-content:center;
   align-content:center;
   line-height: 1.2em;
-  background: #838383;
+  background: #666770;
 }
 
 #input-age-verification > label{
@@ -279,12 +282,12 @@ form li{
 }
 
 #input-submit {
-  background: #696969
+  background: #95969A;
 }
 
 #input-submit > input {
-  background-color: #000000;
-  color: rgb(255, 255, 255);
+  background-color: #11121E;
+  color: #95969A;
   border: 0;
   border-radius: 25px;
   padding: 2%;
@@ -293,7 +296,7 @@ form li{
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 992px) {
   body  {
-    background-color: #414141;
+    background-color: #11121E;
   }
 
   main  {
@@ -305,7 +308,7 @@ form li{
     font-size: 1em;
     height: 100%;
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(230,230,230) 0%, rgb(65, 65, 65) 100%);
+    background: linear-gradient(180deg, #95969A 0%, #11121E 100%);
   }
 
   form > h1{
@@ -342,8 +345,8 @@ form li{
     border: 0;
     border-radius: 25px;
     padding: 1%;
-    background-color: #4b4747;
-    color: white;
+    background-color: #24242b;
+    color: #95969a;
     width: 50%;
   }
 
@@ -375,8 +378,8 @@ form li{
   }
 
   #input-submit > input{
-    background-color: #000000;
-    color: white;
+    background-color: #11121e;
+    color: #95969a;
     border: 0;
     border-radius: 25px;
     padding: 1%;
